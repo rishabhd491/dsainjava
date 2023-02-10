@@ -1,0 +1,41 @@
+//without taking user input
+
+/*import java.util.*;
+public class bubblesort {
+    static void print(int[] a){   //to print array elements
+
+        int x=a.length;
+        for(int i=0;i<x;i++){
+            System.out.println(a[i]+"");
+        }
+
+    }
+    static void bubblesort1(int[] a){  //implement the bubble sort
+
+        int n=a.length;
+        for(int i=0;i<n;i++){
+            for(int j=i+1;j<n;j++){
+                if(a[j]<a[i]){
+                   int temp=a[i];
+                   a[i]=a[j];
+                   a[j]=temp;
+                }
+            }
+        }
+
+
+
+    }
+    public static void main(String args[]){
+        bubblesort b1=new bubblesort();
+        int a[]={35,32,45,36,27,12};
+        System.out.println("before sorting the elements");
+        b1.print(a);
+        b1.bubblesort1(a);
+        System.out.println("after sorting the elements");
+        b1.print(a);
+        b1.print(a);
+
+    }
+}
+*/
